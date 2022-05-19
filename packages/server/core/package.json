@@ -1,0 +1,22 @@
+{
+  "name": "@vtereshyn/core",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "8.4.5",
+    "callsites": "3.1.0",
+    "dotenv": "16.0.1",
+    "reflect-metadata": "0.1.13",
+    "rxjs": "7.5.5",
+    "yup": "0.32.11"
+  }
+}

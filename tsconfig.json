@@ -1,0 +1,21 @@
+{
+    "extends": "./tsconfig.base.json",
+    "files": [],
+    "references": [
+        {
+            "path": "packages/infra/tsconfig.json"
+        },
+        {
+            "path": "packages/client/tsconfig.json"
+        },
+        {
+            "path": "packages/server/core/tsconfig.json"
+        },
+        {
+            "path": "packages/server/services/service/tsconfig.json"
+        },
+        {
+            "path": "packages/server/services/service-1/tsconfig.json"
+        }
+    ]
+}

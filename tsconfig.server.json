@@ -1,0 +1,41 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "target": "ES2019",
+        "composite": true,
+        "incremental": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "inlineSourceMap": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "traceResolution": false,
+        "listEmittedFiles": false,
+        "listFiles": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noEmitOnError": true,
+        "types": [
+            "node",
+            "jest",
+            "@types/jest"
+        ]
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.json"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/.*/",
+        "dist",
+        "__test__",
+        "**/*.spec.ts",
+        "**/__mocks__",
+        "**/__tests__",
+        "**/*.test.ts"
+    ]
+}

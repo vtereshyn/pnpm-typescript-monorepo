@@ -1,0 +1,27 @@
+{
+  "extends": "../../tsconfig.server.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "references": [
+    {
+      "path": "../server/services/service/tsconfig.json"
+    },
+    {
+      "path": "../server/services/service-1/tsconfig.json"
+    }
+  ],
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "__test__",
+    "**/*.spec.ts",
+    "**/__tests__",
+    "**/__mocks__",
+    "**/*.test.ts"
+  ]
+}
